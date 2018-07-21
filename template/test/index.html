@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width">
+<title></title>
+<link rel="shortcut icon" href="assets/img/template/favicon.ico" />
+
+
+	<link type="text/css" rel="stylesheet" href="assets/css/bootstrap.min.css" />
+	<link type="text/css" rel="stylesheet" href="assets/css/style.css" />
+	<link type="text/css" rel="stylesheet" href="assets/css/lightbox0cd5.css?1404922275" />
+	<link type="text/css" rel="stylesheet" href="assets/css/jquery.fancybox0cd5.css?1404922275" />
+	<script type="text/javascript" src="assets/js/jquery-1.10.2.min0cd5.js?1404922275"></script>
+	<script type="text/javascript" src="assets/js/bootstrap.min0cd5.js?1404922275"></script>
+	<script type="text/javascript" src="assets/js/contact_send29e9.js?1408550717"></script>
+	<script type="text/javascript" src="assets/js/lightbox.min0cd5.js?1404922275"></script>
+	<script type="text/javascript" src="assets/js/jquery.fancybox0cd5.js?1404922275"></script>
+
+	<style>
+	#bannertxt {
+	 visibility: hidden;
+	}
+	.mybtn {
+		border: 0px;
+		font-family: harting;
+		text-transform: uppercase;
+		font-size: 18px !important;
+		padding: 8px;
+	}
+	</style>
+	<script type="text/javascript">
+		
+		$(function () {
+		  $('[data-toggle="tooltip"]').tooltip()
+		})
+	    $('#video-production').onClick(function(){
+		       $('#train').css("display", "none"); 
+		})
+
+		$('#videobg').on('ended',function(){ 
+			$('#video-bg-holder').css("display", "none"); 
+		});
+		function videoPlay() {
+		 $('#videobg').get(0).play();
+		 $('#video-bg-holder').css("display", "block");
+		 $('#skpbtn').css("display", "block");
+		 $('#plybtn').css("display", "none");
+		 $('#bannertxt').css("visibility", "hidden");
+		}
+		function videoEnded(){
+		 $('#videobg').get(0).pause();
+		 $('#video-bg-holder').css("display", "none");
+		 $('#skpbtn').css("display", "none");
+		 $('#plybtn').css("display", "block");
+		 $('#bannertxt').css("visibility", "visible");
+		}
+		
+		function videoStop(){
+		 $('#videobg').get(0).pause();
+		 $('#video-bg-holder').css("display", "none");
+		 $('#skpbtn').css("display", "none");
+		 $('#plybtn').css("display", "block");
+		 $('#bannertxt').css("visibility", "visible");
+		}
+	</script>
+</head>
+<body>
+	<div id="header">		  
+	  <nav class="navbar navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <div id="republik-logo">
+			<a href="index.html">&nbsp;</a>		</div>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" style="padding-top:10px" id="navbar-collapse-1">
+        <ul class="nav navbar-nav">
+			<li><a href="#clients">New Cub</a></li>
+                       <li><a id="train" href="#video-production">Training</a></li>
+					   
+					   <li><a id="cont" href="#motion-graphics">Contact</a></li>
+
+						<li><a id="cav" href="#digital-stills">Cave</a></li>
+		
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div><!--header-->
+	<div id="content">
+	
+<div class="bg-image intro-bg" id="about-republik">
+   <div id="video-bg-holder">
+		<div id="video-overlay"></div>
+		
+		<video controls="true" id="videobg" preload="auto" autoplay="true" volume="0" onended="videoEnded()" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+		                <source src="assets/videos/slide.mp4" type="video/mp4">
+						  <source src="video/slide.webm" type="video/webm">
+		</video>
+	</div>
+	<div id="us">
+		<div class="container">
+		<div id="bannertxt">
+			<div class="row">
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+<p>&nbsp;</p>
+				<div style="text-align:center">
+				<img src="img/logo.png" alt="" />
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 intro">
+					<p>High intensity strengh and conditioning combat training in a fun and friendly environment.<br>
+If you want to take yourself to the next level of loss while developing a lean, toned functional body. You like different fun workouts every session, then join us and get fighting fit.</p>
+				</div>
+			</div>
+			<div class="row">
+
+
+			</div>
+</div>
+			<div style="position: absolute;top: 102%;float: left;right: 2%;">
+			   <button type="text" id="skpbtn" class="mybtn sub-heading bg-black clr-white" onclick="videoStop()">Skip video</button>
+				<button type="text" id="plybtn" class="mybtn sub-heading bg-black clr-white" style="display: none" onclick="videoPlay()">Play video</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="bg-image clients-bg" id="clients">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 mt5">
+				
+			</div>
+		</div>
+			<div class="row">
+				<p>&nbsp;</p>
+				<div style="text-align:center">
+				<img src="img/logowhite.png" alt="" />
+				</div>
+			</div>
+			<div class="row cubstxt">
+				<div class="col-md-6">
+					<p>New cubs trying to figure your way <br>around the woods?<br>
+Don't worry, nothing grizzly is going <br>to happen.<br>Take advantage of our save introductory <br>offer.</p>
+				</div>
+				<div class="col-md-6">
+					
+				</div>
+			</div>
+			<div class="row cubsdoller">
+					<div class="col-md-6">
+						<div style="text-align:left">
+				<img src="img/5dollar.png" alt="" />
+				</div>
+					</div>
+					<div class="col-md-6">
+						
+					</div>
+				</div>
+		
+		<div class="row">
+				<div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 mt5">
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="bg-image video-bg" id="video-production">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 mt5">
+			
+			</div>
+		</div>
+			<div class="row">
+			<div class="col-md-12 col-sm-12 col-xs-12 mt2">
+			 <p class="traninghead"> <img src="assets/img/training/training.png" alt=""/></p>
+			</div>
+		</div>
+	
+<div class="row">
+            <div class="col-md-6">
+			<a target="_blank" href="https://clients.mindbodyonline.com/classic/ws?studioid=826149&amp;stype=-7&amp;sTG=22&amp;sVT=5&amp;sView=week&amp;sLoc=1&amp;sTrn=2" rel="tooltip" data-toggle="tooltip" data-placement="left" title="Book Session" class="hover-primary">
+                <h3 class="sub-heading bg-black clr-white">RUMBLE</h3></a><img src="img/icon-black.png" style="height: 64px;margin-bottom: 21px;" class="img-responsive inline-block ml20"><span class="fs20 fw600">x12</span>
+              <p class="fs18 ls1 clr-black fw600">There’s no hiding at back.<br> Our semi-private groups are restricted <br>to a maximum group size of 12. <br>With x2 certified instructors to give<br> all the support you need.</p>
+              <h1 class="fs45 fw600">£ 5</h1><span>*Limited Introductory offer</span>
+            </div>
+            <div class="col-md-6">
+				<div style="float:right">
+				<a target="_blank" href="https://clients.mindbodyonline.com/classic/ws?studioid=826149&amp;stype=-7&amp;sTG=22&amp;sVT=5&amp;sView=week&amp;sLoc=1&amp;sTrn=2" data-toggle="tooltip" data-placement="left" title="Book Session" class="hover-primary">
+                <h3 class="sub-heading bg-black clr-white">PRIVATE GROUP</h3></a>
+				<img src="img/icon-black.png" style="height: 64px;margin-bottom: 21px;" class="img-responsive inline-block ml20"><span class="fs20 fw600">x4</span>
+				  <p class="fs18 ls1 clr-black fw600">Can’t make the class times? <br>Then we wil make your time.<br> Private groups require a minimum <br>of x4</p>
+				  <h1 class="fs45 fw600">£ 15 </h1><span class="fs14">per person </span>
+				</div>
+			</div>
+ </div>
+ 
+<div class="row">
+            <div class="col-md-6">
+<a target="_blank" href="https://clients.mindbodyonline.com/classic/ws?studioid=826149&amp;stype=-7&amp;sTG=22&amp;sVT=5&amp;sView=week&amp;sLoc=1&amp;sTrn=2" data-toggle="tooltip" data-placement="left" title="Book Session" class="hover-primary">
+                <h3 class="sub-heading bg-black clr-white">PARTNERS</h3></a><img src="img/icon-black.png" style="height:80px" class="img-responsive inline-block ml20"><span class="fs20 fw600">x2</span>
+              <p class="fs18 ls1 clr-black fw600">Training Partners can produce<br> amazing results when the two individuals <br>bring out the best in each other.</p>
+              <h1 class="fs45 fw600">£ 25</h1> <span class="fs14">per person</span>
+            </div>
+            <div class="col-md-6">
+             <div style="float:right">
+<a target="_blank" href="https://clients.mindbodyonline.com/classic/ws?studioid=826149&amp;stype=-7&amp;sTG=22&amp;sVT=5&amp;sView=week&amp;sLoc=1&amp;sTrn=2" data-toggle="tooltip" data-placement="left" title="Book Session" class="hover-primary">
+                <h3 class="sub-heading bg-black clr-white">PRIVATE</h3></a><img src="img/icon-black.png" style="height:80px" class="img-responsive inline-block ml20"><span class="fs20 fw600">x1</span>
+              <p class="fs18 ls1 clr-black fw600">For individual bespoke training <br>specially programmed to your <br>needs please inquire.</p>
+            </div>
+          </div>
+	</div>
+		
+		<div class="row">
+			<div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 mt1 mb10">
+
+			</div>
+		</div>
+	</div>
+</div>
+<div class="bg-image motion-graphics-bg" id="motion-graphics">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 mt5">
+						<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 col-sm-12 col-xs-12 mt2">
+			 <p class="traninghead"> <img src="assets/img/contactblack.png" alt=""/></p>
+			</div>
+		</div>
+		<div class="row">
+		<div class="col-md-6 intro">
+				
+			</div>
+			<div class="col-md-6 intro">
+				<p class="txtleft">For more information Please contact<br>
+				rojer@rumblebearrumble.com<br>
+				Rojer 07956 513 503 <br>
+				Need Direction?
+				</p>
+				<p>&nbsp;</p>
+				<p class="alignright">Follow Us:</p>
+				<p class="alignright"><a href="https://www.instagram.com/rumblebearrumble/" target="_blank"><img src="img/instagram.png" alt="" /></a></p>
+			</div>
+		</div>
+			
+		
+		<div class="row">
+			<div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 mt1 mb10">
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+
+			</div>
+		</div>
+		</div>
+	</div>
+<div class="bg-image digital-stills-bg" id="digital-stills">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 mt5">
+				
+			</div>
+		</div>
+<div class="row">
+			<div class="col-md-12 col-sm-12 col-xs-12 mt2">
+			 <p class="traninghead"> <img src="assets/img/caveblack.png" alt=""/></p>
+			</div>
+			<p>&nbsp;</p>
+		</div>
+			<div class="row">
+				<div class="col-lg-12">
+					  <div align="center" class="video embed-responsive embed-responsive-16by9">
+						<video controls class="embed-responsive-item">
+						  <source src="assets/videos/btwork_1.mp4" type="video/mp4">
+						  <source src="video/btwork.webm" type="video/webm">
+						</video>
+					  </div>
+					  <p>&nbsp;</p>
+					   <p>&nbsp;</p>
+				 </div>
+			 </div>
+			 
+			 <div class="row">
+				<div class="col-lg-12">
+					  <div align="center" class="video embed-responsive embed-responsive-16by9">
+						<video controls class="embed-responsive-item">
+						  <source src="assets/videos/btwork_1.mp4" type="video/mp4">
+						  <source src="video/btwork.webm" type="video/webm">
+						</video>
+					  </div>
+				 </div>
+				 <p>&nbsp;</p>
+				  <p>&nbsp;</p>
+			 </div>
+			 
+			 <div class="row">
+				<div class="col-lg-12">
+					  <div align="center" class="video embed-responsive embed-responsive-16by9">
+						<video controls class="embed-responsive-item">
+						  <source src="assets/videos/btwork_1.mp4" type="video/mp4">
+						  <source src="video/btwork.webm" type="video/webm">
+						</video>
+					  </div>
+				 </div>
+<p>&nbsp;</p>
+ <p>&nbsp;</p>
+			 </div>
+			 
+			 <div class="row">
+				<div class="col-lg-12">
+					  <div align="center" class="video embed-responsive embed-responsive-16by9">
+						<video controls class="embed-responsive-item">
+						  <source src="assets/videos/btwork_1.mp4" type="video/mp4">
+						  <source src="video/btwork.webm" type="video/webm">
+						</video>
+					  </div>
+				 </div>
+				 <p>&nbsp;</p>
+				  <p>&nbsp;</p>
+			 </div>
+			 
+		
+		<div class="row">
+			<div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 mt5 mb10">
+				
+			</div>
+		</div>
+	</div>
+</div>
+	
+	
+</div>
+
+
+</div>
+
+	</div><!--content-->
+<script type="text/javascript">
+    $('.hover-primary').tooltip();
+</script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,484 @@
+/* ==========================================================================
+   Blog
+   ========================================================================= */
+
+.blog-title {
+	margin-top: 20px;
+	color: #A80000;
+	text-transform: capitalize !important;
+	border-bottom: 1px solid #333;
+	font-weight: bold;
+}
+
+span.date {
+	display: block;
+	margin: 20px 0;
+	font-weight: bold;
+}
+
+
+/* ==========================================================================
+   Layout Styles
+   ========================================================================= */
+
+#wrapper {
+    border-top: 5px solid #D90000;
+}
+
+.lic-banner {
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+.lic-banner p {
+    color: #FFF;
+    background: url('../images/bg-dark-grey.png') top left repeat; 
+    font-size: 16px; 
+    line-height: 155%;
+    padding: 30px;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+
+    .lic-banner p {
+        font-size: 16px;
+        margin: 40px 0 0 0 !important;
+    }
+
+}
+
+
+/* Text Styles
+   ========================================================================== */
+
+@font-face {
+	font-family: 'ROCK';
+	src: url('fonts/ROCK.eot');
+	src: local('☺'), url('fonts/ROCK.woff') format('woff'), url('fonts/ROCK.ttf') format('truetype'), url('fonts/ROCK.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+h1 {
+	font: normal 56px/100% 'ROCK', Sans-Serif;
+	color: #333;
+}
+
+#home h2 {
+	font: normal 42px/100% 'ROCK', Sans-Serif;
+	color: #666;
+}
+
+h2 {
+	font: bold 30px/120% Arial, Sans-Serif;
+	color: #A80000;
+	margin: 0 0 20px 0;
+}
+
+h3 {
+	font: bold 24px/120% Arial, Sans-Serif;
+	color: #333;
+	margin: 0 0 20px 0;
+}
+
+h4 {
+	font: bold 20px/120% Arial, Sans-Serif;
+	color: #333;
+	margin: 0 0 20px 0;
+}
+
+h5 {
+	font: bold 18px/120% Arial, Sans-Serif;
+	color: #333;
+	margin: 0 0 20px 0;
+}
+
+p {}
+
+
+
+/* Buttons Styles
+   ========================================================================== */
+
+/* 12px White text - Red Border / Dark Red Background - Uppercase */
+
+.btn-style1 {
+	font-size: 12px;
+	border: 1px solid #A80000;
+	background: #650000;
+	color: #FFF;
+	padding: 8px 15px;
+	min-height: 40px;
+	text-transform: uppercase;
+}
+
+.btn-style1:hover {
+	color: #FFF;
+	background: #A80000;
+	text-decoration: none;
+}
+
+/* 12px White text - White Border / Red Background - Uppercase */
+
+.btn-style2 {
+	font-size: 12px;
+	border: 1px solid #A80000;
+	background: #A80000;
+	color: #FFF;
+	padding: 8px 15px;
+	text-transform: uppercase;
+}
+
+.btn-style2:hover {
+	color: #FFF;
+	background: #650000;
+	text-decoration: none;
+}
+
+/* 12px White text - White Border / Red Background - Uppercase */
+
+.btn-style3 {
+	font-size: 12px;
+	border: 1px solid #FFF;
+	background: #A80000;
+	color: #FFF;
+	padding: 8px 15px;
+	text-transform: uppercase;
+}
+
+.btn-style3:hover {
+	color: #FFF;
+	background: #650000;
+	text-decoration: none;
+}
+
+/* 11px White text - White Border / Red Background - Capitalize */
+
+.btn-style4 {
+	font-size: 11px;
+	border: 1px solid #FFF;
+	background: #A80000;
+	color: #FFF;
+	padding: 8px 15px;
+	text-transform: capitalize;
+}
+
+.btn-style4:hover {
+	color: #FFF;
+	background: #650000;
+	text-decoration: none;
+}
+
+/* 16px White text - Red Background - Block - Bottom Margin - Center */
+
+.btn-style5 {
+	display: block;
+	font-size: 16px;
+	background: #A80000;
+	color: #FFF;
+	padding: 8px 15px;
+	text-transform: capitalize;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.btn-style5:hover {
+	color: #FFF;
+	background: #650000;
+	text-decoration: none;
+}
+
+
+
+/* Navigation
+   ========================================================================== */
+
+.navbar {
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+.nav > li > a {
+	padding: 15px 10px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #FFF;
+}
+
+blockquote {
+	font-size: 14px;
+	border-left: 5px solid #D90000;
+}
+
+/* Drop Down Sub Menu */
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+
+/* Footer
+   ========================================================================== */
+
+footer {
+	margin-top: 40px;
+	border-top: 10px solid #D90000;
+	padding-top: 50px;
+	padding-bottom: 20px;
+    background: #333;
+}
+
+footer h5 {
+	font-weight: bold;
+	color: #999;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #BBB;
+}
+
+footer ul {
+	padding: 10px 0 0 0;
+	margin: 0;
+	list-style: none;
+}
+
+footer ul li {
+	margin-bottom: 10px;
+}
+
+footer ul li a {
+	color: #FFF;
+	line-height: 20px;
+}
+
+footer ul li a:hover, footer #contact-info a:hover {
+	color: #999;
+	text-decoration: none;
+}
+
+footer #contact-info {
+	border-top: 1px solid #BBB;
+	border-bottom: 1px solid #BBB;
+	padding: 15px 0;
+	margin: 20px 0;
+}
+
+footer #contact-info p, footer #contact-info a {
+	color: #FFF;
+	margin: 0;
+}
+
+footer #copyright {
+	padding: 15px 0;
+}
+
+footer #copyright p {
+	color: #FFF;
+}
+
+
+
+
+
+
+/* Bootstrap Overrides
+   ========================================================================== */
+
+.navbar-inverse {
+	background: #333;
+	border: none;
+}
+
+.breadcrumb {
+	margin:20px 0 40px 0;
+	background: none;
+	text-align: right;
+}
+
+.bg-primary {
+	padding: 6px 10px;
+	margin: 10px 0;
+	background-color: #D90000;
+}
+
+.bg-primary p {
+	margin: 0;
+}
+
+
+/* Custom Classes
+   ========================================================================== */
+
+.divider {
+	width: 120px;
+	height: 10px;
+	background: #990000;
+	margin: 30px auto 40px auto;
+}
+
+.red {
+	color: #FF0000;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.fine {
+	font-size: 11px;
+}
+
+.center {
+	text-align: center;
+}
+
+.upper {
+	text-transform: uppercase;
+}
+
+.float-left {
+	float: left;
+	margin: 0 20px 0 20px;
+}
+
+.float-right {
+	float: right;
+	margin: 0 0 20px 20px;
+}
+
+/* Life in Canada */
+
+.affix {
+    position: fixed;
+    top: 20px;
+}
+
+#sidenav .nav > li > a {
+	width: 230px;
+	padding: 3px 10px;
+}
+
+.img-right {
+    float: right;
+    margin: 0 0 20px 20px;
+    width: 260px; 
+    border-left: 1px solid #CCC; 
+    padding-left: 10px;
+}
+
+.img-right img {
+    width: 100%;
+}
+
+
+
+
+
+
+/* Responsive: Small and Below
+========================================================================== */
+
+@media (max-width: 767px) {
+
+	h1 {
+		font-size: 42px;
+	}
+
+	.breadcrumb {
+		display: none;
+	}
+
+	.img-right {
+		float: none !important;
+		border: none !important;
+		width: 100% !important;
+		margin: 0 0 20px 0 !important;
+		padding: 0 !important;
+	}
+	
+}
+
+
+
+
+/* Responsive: Small and Above
+========================================================================== */
+
+@media (min-width: 768px) {
+
+	
+
+}
+
+
+
+
+
+/* Responsive: Medium and Above
+========================================================================== */
+
+@media (min-width: 992px) {
+
+	#navbar {
+		float: right;
+	}
+
+}
+
+
+
+
+
+/* Responsive: Large and Above
+========================================================================== */
+
+@media (min-width: 1200px) {
+
+	
+
+}

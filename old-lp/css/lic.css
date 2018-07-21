@@ -1,0 +1,177 @@
+h3 {
+    margin: 40px 0 10px 0;
+}
+
+h3#Overview {
+    margin-top: 0;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+    background-color: #D90000;
+}
+
+
+/* Cities
+   ========================================================================== */
+
+#canada .lic-banner {
+    background: url('../images/bg-ontario.jpg') bottom center no-repeat;
+    background-size: cover;
+}
+
+#canada .lic-banner p {
+    margin-top: 150px; 
+}
+
+
+
+/* Cities
+   ========================================================================== */
+
+#montreal .lic-banner {
+    background: url('../images/bg-montreal.jpg') bottom center no-repeat;
+    background-size: cover;
+}
+
+#montreal .lic-banner p {
+    margin-top: 140px; 
+}
+
+#toronto .lic-banner {
+    background: url('../images/bg-toronto.jpg') bottom center no-repeat;
+    background-size: cover;
+}
+
+#toronto .lic-banner p {
+    margin-top: 140px; 
+}
+
+#vancouver .lic-banner {
+    background: url('../images/bg-vancouver.jpg') bottom center no-repeat;
+    background-size: cover;
+}
+
+#vancouver .lic-banner p {
+    margin-top: 140px; 
+}
+
+
+/* Provinces
+   ========================================================================== */
+
+#alberta .lic-banner {
+    background: url('../images/bg-alberta.jpg') bottom center no-repeat;
+    background-size: cover;
+}
+
+#alberta .lic-banner p {
+    margin-top: 140px; 
+}
+
+#bc .lic-banner {
+    background: url('../images/bg-bc.jpg') bottom center no-repeat;
+    background-size: cover;
+}
+
+#bc .lic-banner p {
+    margin-top: 140px; 
+}
+
+#manitoba .lic-banner {
+    background: url('../images/bg-manitoba.jpg') bottom center no-repeat;
+    background-size: cover;
+}
+
+#manitoba .lic-banner p {
+    margin-top: 140px; 
+}
+
+#new-brunswick .lic-banner {
+    background: url('../images/bg-new-brunswick.jpg') bottom center no-repeat;
+    background-size: cover;
+}
+
+#new-brunswick .lic-banner p {
+    margin-top: 140px; 
+}
+
+#newfoundland .lic-banner {
+    background: url('../images/bg-newfoundland.jpg') bottom center no-repeat;
+    background-size: cover;
+}
+
+#newfoundland .lic-banner p {
+    margin-top: 120px; 
+}
+
+#nwt .lic-banner {
+    background: url('../images/bg-nwt.jpg') bottom center no-repeat;
+    background-size: cover;
+}
+
+#nwt .lic-banner p {
+    margin-top: 140px; 
+}
+
+#nova-scotia .lic-banner {
+    background: url('../images/bg-nova-scotia.jpg') bottom center no-repeat;
+    background-size: cover;
+}
+
+#nova-scotia .lic-banner p {
+    margin-top: 140px; 
+}
+
+#nunavut .lic-banner {
+    background: url('../images/bg-nunavut.jpg') bottom center no-repeat;
+    background-size: cover;
+}
+
+#nunavut .lic-banner p {
+    margin-top: 140px; 
+}
+
+#ontario .lic-banner {
+    background: url('../images/bg-ontario.jpg') bottom center no-repeat;
+    background-size: cover;
+}
+
+#ontario .lic-banner p {
+    margin-top: 150px; 
+}
+
+#pei .lic-banner {
+    background: url('../images/bg-pei.jpg') bottom center no-repeat;
+    background-size: cover;
+}
+
+#pei .lic-banner p {
+    margin-top: 140px; 
+}
+
+#quebec .lic-banner {
+    background: url('../images/bg-quebec.jpg') bottom center no-repeat;
+    background-size: cover;
+}
+
+#quebec .lic-banner p {
+    margin-top: 140px; 
+}
+
+#saskatchewan .lic-banner {
+    background: url('../images/bg-saskatchewan.jpg') bottom center no-repeat;
+    background-size: cover;
+}
+
+#saskatchewan .lic-banner p {
+    margin-top: 140px; 
+}
+
+#yukon .lic-banner {
+    background: url('../images/bg-yukon.jpg') bottom center no-repeat;
+    background-size: cover;
+}
+
+#yukon .lic-banner p {
+    margin-top: 140px; 
+}

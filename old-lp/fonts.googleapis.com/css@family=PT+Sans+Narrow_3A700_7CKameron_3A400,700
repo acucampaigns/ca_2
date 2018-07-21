@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Kameron';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts.gstatic.com/s/kameron/v7/2vn8dge_HpadRinw6s8mUw.eot);
+}
+@font-face {
+  font-family: 'PT Sans Narrow';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts.gstatic.com/s/ptsansnarrow/v7/Q_pTky3Sc3ubRibGToTAYmT4ZFB4cX9NxOgt4NwF8dg.eot);
+}

@@ -1,0 +1,228 @@
+/* ==========================================================================
+   Homepage
+   ========================================================================= */
+
+/* Banners
+========================================================================== */
+
+
+/* Mobile Banner */
+
+#banner-mobile {
+	padding: 30px 0 0px 0;
+	background: #333;
+}
+
+#banner-mobile h1 {
+	font: normal 24px/100% 'ROCK', Sans-Serif;
+	color: #FFF;
+	margin: 0 0 20px 0;
+	text-align: center;
+}
+
+#banner-mobile img {
+	margin: 0 auto;
+}
+
+/* Desktop Banner */
+
+#banner-rotate h1 {
+	font: normal 48px/100% 'ROCK', Sans-Serif;
+	margin-bottom: 20px;
+	color: #FFF;
+	background: url('../images/bg-grey.png') top left repeat;
+	padding: 15px 20px;
+}
+
+.carousel-indicators {
+	bottom: 10px;
+}
+
+@media (max-width: 1140px) {
+
+	#banner-rotate h1 {
+		font: normal 30px/100% 'ROCK', Sans-Serif;
+		margin-bottom: 10px;
+		padding: 10px 10px;
+	}
+
+}
+
+@media (min-width: 1141px) {
+
+	#banner-rotate h1 {
+		font: normal 36px/100% 'ROCK', Sans-Serif;
+		margin-bottom: 10px;
+		padding: 10px 10px;
+	}
+
+	.carousel-caption {
+		padding-bottom: 80px;
+	}
+
+}
+
+@media (min-width: 1900px) {
+
+	.carousel-caption {
+		padding-bottom: 120px;
+	}
+
+}
+
+/* Boxes */
+
+#boxes {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background: #333;
+}
+
+#boxes img {
+	max-width: 100%;
+	height: auto;
+}
+
+#boxes p {
+	color: #FFF;
+}
+
+#boxes h2 {
+	font: normal 36px/100% 'ROCK', Sans-Serif;
+	color: #FFF;
+	border-left: 10px solid #D90000;
+	padding-left: 15px;
+	margin-top: 10px;
+}
+
+#assessment {
+	padding: 40px 0 20px 0;
+	background: #A80000;
+}
+
+#assessment .divider {
+	width: 160px;
+	height: 10px;
+	background: #FFF;
+	margin: 30px auto;
+}
+
+#assessment h2 {
+	font: normal 56px/100% 'ROCK', Sans-Serif;
+	margin: 20px 0;
+	padding: 0;
+	color: #FFF;
+}
+
+#assessment h3 {
+	font: normal 24px/100% 'ROCK', Sans-Serif;
+	color: #FFF;
+	margin: 0 0 10px 0;
+}
+
+#assessment h4 {
+	font: normal 20px/100% 'ROCK', Sans-Serif;
+	color: #FFF;
+	margin: 0;
+}
+
+#assessment p {
+	font: normal 18px/155% Arial, Sans-Serif;
+	margin: 20px 0;
+	padding: 0;
+	color: #FFF;
+}
+
+#assessment .bg-dark-red {
+	color: #FFF;
+	background: #650000;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+#assessment  .bg-dark-red p {
+	font: normal 14px/120% Arial, Sans-Serif;
+	margin: 20px 0;
+	padding: 0;
+	color: #FFF;
+}
+
+
+#general-inquires {
+	margin: 20px 0;
+}
+
+#general-inquires h3 {
+	font: normal 36px/100% 'ROCK', Sans-Serif;
+	color: #FFF;
+	margin: 0;
+}
+
+#general-inquires p {
+	font: normal 18px/155% Arial, Sans-Serif;
+	color: #FFF;
+	margin: 20px 0;
+}
+
+/* Polaroid */
+
+#polaroid {
+	padding: 40px 0;
+}
+
+#polaroid img {
+	max-width: 100%;
+	height: auto;
+}
+
+#polaroid h2 {
+	font: normal 42px/100% 'ROCK', Sans-Serif;
+	color: #333;
+	margin: 0;
+}
+
+#polaroid p {
+	margin: 20px 0;
+}
+
+#polaroid .divider {
+	width: 160px;
+	height: 10px;
+	background: #D90000;
+	margin: 30px 0;
+}
+
+/* Collage */
+
+#collage {
+	/*height: 400px;*/
+	width: 100%;
+	background: url('../images/collage.jpg') top center no-repeat;
+}
+
+/* News */
+
+#news {
+	margin: 60px 0;
+}
+
+#news h2 {
+	font: normal 42px/100% 'ROCK', Sans-Serif;
+	color: #333;
+	margin: 0;
+}
+
+#news .divider {
+	width: 160px;
+	height: 10px;
+	background: #D90000;
+	margin: 10px auto 30px auto;
+}
+
+#news h3 {
+	font: bold 18px/120% Arial, Sans-serif;
+}
+
+#news p {
+	margin: 30px 0;
+}

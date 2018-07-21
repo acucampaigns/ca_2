@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts.gstatic.com/s/montserrat/v10/gFXtEMCp1m_YzxsBpKl68lQlYEbsez9cZjKsNMjLOwM.eot);
+}
+@font-face {
+  font-family: 'Vollkorn';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts.gstatic.com/s/vollkorn/v6/rzvoOTOZcQfVDoKuaB7mVvesZW2xOQ-xsNqO47m55DA.eot);
+}
